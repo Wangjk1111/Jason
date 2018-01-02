@@ -1,0 +1,1 @@
+在Android 的Manifest中注册Activity时有时会出现Use '$' instead of '.' for inner classes (or use only lowercase letters in package names)的警告信息，出现这种情况的原因是你引用的Activity的包名中出现大写的包名了，把包名改为小写重新引用就可以了。
